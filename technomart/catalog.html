@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Каталог</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container clearfix">
+      <a href="#" class="logo">техномарт</a>
+      <form action="#" class="search">
+        <input type="search" placeholder="Поиск:" id="search">
+      </form>
+      <a href="#" class="bookmark">Закладки: 0</a>
+      <a href="#" class="basket basket_pink">Корзина: 10</a>
+      <a href="#" class="checkout">оформить заказ</a>
+    </div>
+    <div class="header__information container clearfix">
+      <div class="header__info">
+        <p class="info-paragraph">Интернет-магазин строительных материалов и инстументов для ремонта</p>
+      </div>
+      <div class="address-info">
+        <a href="#" class="phone-info">
+          +7 (495) 555-05-55
+        </a>
+        <div class="adress-home">Москва, ул. Строителей, д. 15</div>
+      </div>
+      <div class="user-profile clearfix">
+        <a href="#" class="user-photo"></a>
+        <span class="user-name">равшан джамшутович</span>
+        <a href="#" class="user-logout"></a>
+      </div>
+      <div class="order-info">
+         <a href="#" class="order-text">Мои заказы</a>
+         <img src="img/shape-login.png" alt="shape" class="order-shape" height="5" width="4"> 
+         <a href="#" class="order-text">Личный кабинет</a>
+      </div>
+    </div>
+    <div class="header__nav container">
+      <a href="index.html" class="nav-link">Главная</a>
+      <a href="#" class="nav-link">Компания</a>
+      <a href="catalog.html" class="nav-link">Каталог</a>
+      <a href="#" class="nav-link">Новости</a>
+      <a href="#" class="nav-link">Спецпредложения</a>
+      <a href="#" class="nav-link">Доставка</a>
+      <a href="#" class="nav-link">Контакты</a>
+    </div>
+  </header>
+
+  <div class="catalog container">
+    <div class="catalog__menu">
+      <a href="#" class="catalog__item catalog__item-home"></a>
+      <a href="#" class="catalog__item">каталог</a>
+      <a href="#" class="catalog__item">инструменты</a>
+      <a href="#" class="catalog__item">перфораторы</a>
+    </div>
+    <h2 class="perforator-caption">перфораторы</h2>
+    <div class="filter clearfix">
+      <div class="filter__caption">фильтр:</div>
+      <div class="filter__sorting">
+        <div class="filter__caption">сортировка:</div>
+        <div class="sorting__section">
+          <a href="#" class="sorting__item sorting__item-active">по цене</a>
+          <a href="#" class="sorting__item">по типу</a>
+          <a href="#" class="sorting__item">по функционалу</a>
+        </div>
+        <div class="sorting__arrow">
+          <a href="#"><img src="img/icon-up-dir.png"></a>
+          <a href="#"><img src="img/icon-down-dir.png"></a>
+        </div>
+      </div>
+    </div>
+    <div class="goods__info clearfix">
+      <div class="price-section">
+        <div class="caption-text">цена:</div>
+        <div class="slider-section">
+          <img src="img/green-line.png" alt="line" class="green-line">
+          <img src="img/slider-shape.png" alt="shape" class="slider-shape-left">
+          <img src="img/slider-shape.png" alt="shape" class="slider-shape-right">
+          <img src="img/shape-small.png" alt="shape" class="shape-small-left">
+          <img src="img/shape-small.png" alt="shape" class="shape-small-right">
+        </div>
+        <div class="range range-left">0</div>
+        <img src="img/dash.png" alt="dash" class="dash">
+        <div class="range range-right">30 000</div>
+        <hr>
+        <div class="caption-text">производители:</div>
+        <form action="#">
+          <label for="bosch">
+            <input type="checkbox" name="manufacturers" id="bosch"> 
+            <span class="manufacturers">bosch</span> <br>
+          </label>
+          <label for="interskol">
+              <input type="checkbox" name="manufacturers" id="interskol"> 
+              <span class="manufacturers">интерскол</span> <br> 
+          </label>
+          <label for="makita">
+              <input type="checkbox" name="manufacturers" id="makita""> 
+              <span class="manufacturers">makita</span> <br>
+          </label>
+          <label for="dewalt">
+              <input type="checkbox" name="manufacturers" id="dewalt"> 
+              <span class="manufacturers">dewalt</span> <br>
+          </label>
+          <label for="hitachi">
+              <input type="checkbox" name="manufacturers" id="hitachi"> 
+              <span class="manufacturers">hitachi</span>
+          </label>
+        </form>
+        <hr>
+        <div class="caption-text">питание:</div>
+        <form action="#">
+          <label for="akkum">
+            <input type="radio" id="akkum" name="choice">
+            <span class="manufacturers">аккумуляторные</span> <br>
+          </label>
+          <label for="setev">
+              <input type="radio" id="setev" name="choice">
+              <span class="manufacturers">сеевые</span>
+          </label>
+        </form>
+        <a href="#" class="show-btn">показать</a>
+      </div>
+
+      <div class="goods__section">
+        <a href="#" class="goods__item goods__item-catalog">
+          <img src="img/perforator2.png" alt="perforator" class="goods__item-photo" height="95" width="127">
+          <p class="goods__caption">
+            Перфоратор BOSCH <br>
+            BFG 9000
+          </p>
+          <span class="goods__old-price">22 500 р.</span>
+          <div class="goods__new-price">15 500 р.</div>
+        </a>
+
+        <a href="#" class="goods__item goods__item-catalog">
+          <img src="img/perforator2.png" alt="perforator" class="goods__item-photo" height="95" width="127">
+          <p class="goods__caption">
+            Перфоратор BOSCH <br>
+            BFG 9000
+          </p>
+          <span class="goods__old-price">22 500 р.</span>
+          <div class="goods__new-price">15 500 р.</div>
+        </a>
+
+        <a href="#" class="goods__item goods__item-catalog">
+          <img src="img/perforator2.png" alt="perforator" class="goods__item-photo" height="95" width="127">
+          <img src="img/new.png" alt="new" class="grid__photo grid__photo-new">
+          <p class="goods__caption">
+            Перфоратор BOSCH <br>
+            BFG 9000
+          </p>
+          <span class="goods__old-price">22 500 р.</span>
+          <div class="goods__new-price">15 500 р.</div>
+        </a>
+
+        <a href="#" class="goods__item goods__item-catalog">
+          <img src="img/perforator2.png" alt="perforator" class="goods__item-photo" height="95" width="127">
+          <p class="goods__caption">
+            Перфоратор BOSCH <br>
+            BFG 9000
+          </p>
+          <span class="goods__old-price">22 500 р.</span>
+          <div class="goods__new-price">15 500 р.</div>
+        </a>
+
+        <a href="#" class="goods__item goods__item-catalog">
+          <img src="img/perforator2.png" alt="perforator" class="goods__item-photo" height="95" width="127">
+          <img src="img/new.png" alt="new" class="grid__photo grid__photo-new">
+          <p class="goods__caption">
+            Перфоратор BOSCH <br>
+            BFG 9000
+          </p>
+          <span class="goods__old-price">22 500 р.</span>
+          <div class="goods__new-price">15 500 р.</div>
+        </a>
+
+        <a href="#" class="goods__item goods__item-catalog">
+          <img src="img/perforator2.png" alt="perforator" class="goods__item-photo" height="95" width="127">
+          <p class="goods__caption">
+            Перфоратор BOSCH <br>
+            BFG 9000
+          </p>
+          <span class="goods__old-price">22 500 р.</span>
+          <div class="goods__new-price">15 500 р.</div>
+        </a>
+
+        <a href="#" class="goods__item goods__item-catalog">
+          <img src="img/perforator2.png" alt="perforator" class="goods__item-photo" height="95" width="127">
+          <img src="img/new.png" alt="new" class="grid__photo grid__photo-new">
+          <p class="goods__caption">
+            Перфоратор BOSCH <br>
+            BFG 9000
+          </p>
+          <span class="goods__old-price">22 500 р.</span>
+          <div class="goods__new-price">15 500 р.</div>
+        </a>
+
+        <a href="#" class="goods__item goods__item-catalog">
+          <img src="img/perforator2.png" alt="perforator" class="goods__item-photo" height="95" width="127">
+          <p class="goods__caption">
+            Перфоратор BOSCH <br>
+            BFG 9000
+          </p>
+          <span class="goods__old-price">22 500 р.</span>
+          <div class="goods__new-price">15 500 р.</div>
+        </a>
+
+        <a href="#" class="goods__item goods__item-catalog">
+          <img src="img/perforator2.png" alt="perforator" class="goods__item-photo" height="95" width="127">
+          <p class="goods__caption">
+            Перфоратор BOSCH <br>
+            BFG 9000
+          </p>
+          <span class="goods__old-price">22 500 р.</span>
+          <div class="goods__new-price">15 500 р.</div>
+        </a>
+      </div>
+    </div>
+    <div class="sheets__switcher">
+      <a href="#" class="sheets__number sheets__number-active">1</a>
+      <a href="#" class="sheets__number">2</a>
+      <a href="#" class="sheets__number">3</a>
+      <a href="#" class="sheets__number sheets__number-next">следующая</a>
+    </div>
+  </div>
+  <div class="perforator__info-section">
+    <div class="container">
+      <h2 class="perforator__caption">пара слов о перфораторах</h2>
+      <p class="perforator__text">
+          Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. <br>
+          Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и <br> 
+          отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и <br>
+          ударная дрель.
+      </p>
+    </div>
+  </div>
+  <footer class="footer">
+      <div class="footer-top clearfix">
+        <div class="container">
+          <div class="contact-section">
+            <h2 class="footer__logo">техномарт</h2>
+              <p class="footer__adress-text">
+                г. Москва, ул. Строителей, 15 <br>
+                +7 (495) 555-05-55
+              </p>
+          </div>
+          <div class="footer__nav">
+            <div class="footer__nav-top">
+              <a href="#" class="footer__link">Компания</a>
+              <a href="#" class="footer__link">Новости</a>
+              <a href="#" class="footer__link">Каталог</a>
+              <a href="#" class="footer__link">Доставка</a>
+              <a href="#" class="footer__link">Контакты</a>
+            </div>
+            <div class="footer__nav-bottom">
+              <a href="#" class="footer__item">Материалы</a>
+              <a href="#" class="footer__item">Техника</a>
+              <a href="#" class="footer__item">Инструмент</a>
+              <a href="#" class="footer__item">Спецпредложения</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container clearfix">
+          <div class="copyright">
+            <p>
+              © 2010–2013 Компания «Техномарт» <br>
+              Все права защищены
+            </p>
+          </div>
+          <div href="#" class="social">
+            <div class="social__vk"></div>
+            <div class="social__fb"></div>
+            <div class="social__insta"></div>
+          </div>
+          <div class="author">
+            <p>
+              Обратная связь:
+            </p>
+            <a href="#">Info@Technomart.Ru</a>
+          </div>
+          <div class="author">
+            <p>
+              Дизайн сайта —
+            </p>
+            <a href="#">www.Glukhanko.ru</a>
+          </div>
+        </div>
+      </div>
+  </footer>
+</body>
+
+</html>
