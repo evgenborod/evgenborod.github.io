@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700" rel="stylesheet">
+  <script src="js/script.js" defer></script>
 </head>
 <body>
   <header>
@@ -35,14 +36,16 @@
         <a href="#" class="login-btn">Регистрация</a>
       </div>
     </div>
-    <div class="header__nav container">
-      <a href="index.html" class="nav-link">Главная</a>
-      <a href="#" class="nav-link">Компания</a>
-      <a href="catalog.html" class="nav-link">Каталог</a>
-      <a href="#" class="nav-link">Новости</a>
-      <a href="#" class="nav-link">Спецпредложения</a>
-      <a href="#" class="nav-link">Доставка</a>
-      <a href="#" class="nav-link">Контакты</a>
+    <div class="container">
+      <nav class="header__nav">
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="#" class="nav-link">Компания</a>
+        <a href="catalog.html" class="nav-link">Каталог</a>
+        <a href="#" class="nav-link">Новости</a>
+        <a href="#" class="nav-link">Спецпредложения</a>
+        <a href="#" class="nav-link">Доставка</a>
+        <a href="#" class="nav-link">Контакты</a>
+      </nav>  
     </div>
   </header>
 
@@ -192,7 +195,8 @@
       <p class="technomart__paragraph">
         Вы можете забрать товар сами, заехав в наш офис:
       </p>
-      <img src="img/map.png" alt="map" class="company__map" height="158" width="300">  
+      <img src="img/map.png" alt="map" class="company__map" height="158" width="300"> 
+      <iframe src="https://www.google.com/maps/embed?pb=" class="iframe-map" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       <a href="#" class="btn__map">заблудились? напишите нам!</a>
     </div>
   </div>
